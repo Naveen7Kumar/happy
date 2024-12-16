@@ -16,7 +16,7 @@ public class DrpDownAll {
 public static WebDriver driver;
 	
 	public static void main(String[] args) throws InterruptedException {
-		
+	System.out.println("Naveen Done the changes");
 	ChromeOptions option = new ChromeOptions();
 	option.addArguments("--remote-allow-origins=*");
 	WebDriverManager.chromedriver().setup();
